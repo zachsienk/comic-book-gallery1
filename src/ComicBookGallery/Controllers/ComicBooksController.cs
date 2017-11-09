@@ -13,7 +13,10 @@ namespace ComicBookGallery.Controllers
         //ActionReuslt type is usually action return type press alt f12 if there is an error
         public ActionResult Detail()
         {
-            
+
+            return View();
+
+            /*
             if (DateTime.Today.DayOfWeek == DayOfWeek.Wednesday)
             {
                 //redirect is a method in Controller class of mvc
@@ -23,7 +26,7 @@ namespace ComicBookGallery.Controllers
 
             //content is method isController class of mvc
             return Content("Hello from the comic book controller!");
-           
+           */
 
         
         
